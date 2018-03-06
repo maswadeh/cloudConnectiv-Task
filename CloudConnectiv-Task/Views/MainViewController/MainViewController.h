@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  CloudConnectiv-Task
 //
 //  Created by Mohammad Maswadeh on 3/6/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-

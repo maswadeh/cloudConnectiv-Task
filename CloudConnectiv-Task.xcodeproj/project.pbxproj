@@ -8,24 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		61127656204EFED90031635B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61127655204EFED90031635B /* AppDelegate.m */; };
-		61127659204EFED90031635B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61127658204EFED90031635B /* ViewController.m */; };
 		6112765C204EFED90031635B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6112765A204EFED90031635B /* Main.storyboard */; };
 		6112765E204EFED90031635B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6112765D204EFED90031635B /* Assets.xcassets */; };
 		61127661204EFED90031635B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6112765F204EFED90031635B /* LaunchScreen.storyboard */; };
 		61127664204EFED90031635B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61127663204EFED90031635B /* main.m */; };
+		6112766E204F037C0031635B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112766D204F037C0031635B /* MainViewController.m */; };
+		61127676204F03D00031635B /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 61127673204F03CF0031635B /* BaseObject.m */; };
+		61127677204F03D00031635B /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 61127674204F03D00031635B /* BaseResponse.m */; };
+		6112767E204F04290031635B /* Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112767A204F04290031635B /* Errors.m */; };
+		6112767F204F04290031635B /* ErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112767C204F04290031635B /* ErrorHandler.m */; };
+		61127683204F04430031635B /* NetworkOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61127682204F04430031635B /* NetworkOperationManager.m */; };
+		61127685204F048F0031635B /* Objective-C.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 61127684204F048F0031635B /* Objective-C.gitignore */; };
+		61127693204F04D80031635B /* NSObject+DataExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 61127688204F04D70031635B /* NSObject+DataExtractor.m */; };
+		61127696204F04D80031635B /* UIView+RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112768C204F04D70031635B /* UIView+RoundedCorners.m */; };
+		61127697204F04D80031635B /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112768D204F04D70031635B /* UIViewController+Loading.m */; };
+		61127698204F04D80031635B /* UITextField+Icons.m in Sources */ = {isa = PBXBuildFile; fileRef = 61127691204F04D70031635B /* UITextField+Icons.m */; };
+		E0A91E823046E5B043A4BF32 /* Pods_CloudConnectiv_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A73C5AA095FE8071508E60 /* Pods_CloudConnectiv_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61127651204EFED90031635B /* CloudConnectiv-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CloudConnectiv-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61127654204EFED90031635B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61127655204EFED90031635B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		61127657204EFED90031635B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		61127658204EFED90031635B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6112765B204EFED90031635B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6112765D204EFED90031635B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61127660204EFED90031635B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61127662204EFED90031635B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61127663204EFED90031635B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6112766C204F037C0031635B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6112766D204F037C0031635B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		61127671204F03CF0031635B /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		61127672204F03CF0031635B /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		61127673204F03CF0031635B /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
+		61127674204F03D00031635B /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		61127675204F03D00031635B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6112767A204F04290031635B /* Errors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Errors.m; sourceTree = "<group>"; };
+		6112767B204F04290031635B /* ErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHandler.h; sourceTree = "<group>"; };
+		6112767C204F04290031635B /* ErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorHandler.m; sourceTree = "<group>"; };
+		6112767D204F04290031635B /* Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Errors.h; sourceTree = "<group>"; };
+		61127681204F04430031635B /* NetworkOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkOperationManager.h; sourceTree = "<group>"; };
+		61127682204F04430031635B /* NetworkOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkOperationManager.m; sourceTree = "<group>"; };
+		61127684204F048F0031635B /* Objective-C.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Objective-C.gitignore"; sourceTree = "<group>"; };
+		61127688204F04D70031635B /* NSObject+DataExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataExtractor.m"; sourceTree = "<group>"; };
+		6112768C204F04D70031635B /* UIView+RoundedCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundedCorners.m"; sourceTree = "<group>"; };
+		6112768D204F04D70031635B /* UIViewController+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Loading.m"; sourceTree = "<group>"; };
+		6112768E204F04D70031635B /* NSObject+DataExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataExtractor.h"; sourceTree = "<group>"; };
+		6112768F204F04D70031635B /* UITextField+Icons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Icons.h"; sourceTree = "<group>"; };
+		61127690204F04D70031635B /* UIViewController+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Loading.h"; sourceTree = "<group>"; };
+		61127691204F04D70031635B /* UITextField+Icons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Icons.m"; sourceTree = "<group>"; };
+		61127692204F04D80031635B /* UIView+RoundedCorners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundedCorners.h"; sourceTree = "<group>"; };
+		B0CFA5B950D3920B4AC97999 /* Pods-CloudConnectiv-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudConnectiv-Task.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudConnectiv-Task/Pods-CloudConnectiv-Task.release.xcconfig"; sourceTree = "<group>"; };
+		B63C681D17F79EBED94C1DD1 /* Pods-CloudConnectiv-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudConnectiv-Task.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudConnectiv-Task/Pods-CloudConnectiv-Task.debug.xcconfig"; sourceTree = "<group>"; };
+		D8A73C5AA095FE8071508E60 /* Pods_CloudConnectiv_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudConnectiv_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A91E823046E5B043A4BF32 /* Pods_CloudConnectiv_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +79,8 @@
 			children = (
 				61127653204EFED90031635B /* CloudConnectiv-Task */,
 				61127652204EFED90031635B /* Products */,
+				E7A92299C12897B22473E43A /* Pods */,
+				6D6E3452A0067C676F334F2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +95,12 @@
 		61127653204EFED90031635B /* CloudConnectiv-Task */ = {
 			isa = PBXGroup;
 			children = (
+				6112766A204F03570031635B /* Views */,
+				61127699204F04DB0031635B /* Others */,
+				61127686204F04CA0031635B /* Categories */,
+				6112766F204F03BE0031635B /* Managers */,
 				61127654204EFED90031635B /* AppDelegate.h */,
 				61127655204EFED90031635B /* AppDelegate.m */,
-				61127657204EFED90031635B /* ViewController.h */,
-				61127658204EFED90031635B /* ViewController.m */,
 				6112765A204EFED90031635B /* Main.storyboard */,
 				6112765D204EFED90031635B /* Assets.xcassets */,
 				6112765F204EFED90031635B /* LaunchScreen.storyboard */,
@@ -71,6 +110,105 @@
 			path = "CloudConnectiv-Task";
 			sourceTree = "<group>";
 		};
+		6112766A204F03570031635B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6112766B204F035E0031635B /* MainViewController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6112766B204F035E0031635B /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6112766C204F037C0031635B /* MainViewController.h */,
+				6112766D204F037C0031635B /* MainViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		6112766F204F03BE0031635B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				61127680204F04320031635B /* NetworkOperationManager */,
+				61127679204F041D0031635B /* ErrorHandler */,
+				61127670204F03C20031635B /* Base */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		61127670204F03C20031635B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				61127671204F03CF0031635B /* BaseObject.h */,
+				61127673204F03CF0031635B /* BaseObject.m */,
+				61127672204F03CF0031635B /* BaseResponse.h */,
+				61127674204F03D00031635B /* BaseResponse.m */,
+				61127675204F03D00031635B /* Constants.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		61127679204F041D0031635B /* ErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				6112767D204F04290031635B /* Errors.h */,
+				6112767A204F04290031635B /* Errors.m */,
+				6112767B204F04290031635B /* ErrorHandler.h */,
+				6112767C204F04290031635B /* ErrorHandler.m */,
+			);
+			path = ErrorHandler;
+			sourceTree = "<group>";
+		};
+		61127680204F04320031635B /* NetworkOperationManager */ = {
+			isa = PBXGroup;
+			children = (
+				61127681204F04430031635B /* NetworkOperationManager.h */,
+				61127682204F04430031635B /* NetworkOperationManager.m */,
+			);
+			path = NetworkOperationManager;
+			sourceTree = "<group>";
+		};
+		61127686204F04CA0031635B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6112768E204F04D70031635B /* NSObject+DataExtractor.h */,
+				61127688204F04D70031635B /* NSObject+DataExtractor.m */,
+				61127692204F04D80031635B /* UIView+RoundedCorners.h */,
+				6112768C204F04D70031635B /* UIView+RoundedCorners.m */,
+				61127690204F04D70031635B /* UIViewController+Loading.h */,
+				6112768D204F04D70031635B /* UIViewController+Loading.m */,
+				6112768F204F04D70031635B /* UITextField+Icons.h */,
+				61127691204F04D70031635B /* UITextField+Icons.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		61127699204F04DB0031635B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				61127684204F048F0031635B /* Objective-C.gitignore */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6D6E3452A0067C676F334F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8A73C5AA095FE8071508E60 /* Pods_CloudConnectiv_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7A92299C12897B22473E43A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B63C681D17F79EBED94C1DD1 /* Pods-CloudConnectiv-Task.debug.xcconfig */,
+				B0CFA5B950D3920B4AC97999 /* Pods-CloudConnectiv-Task.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61127667204EFED90031635B /* Build configuration list for PBXNativeTarget "CloudConnectiv-Task" */;
 			buildPhases = (
+				18AE6D79A6FFFF6EA4CD148B /* [CP] Check Pods Manifest.lock */,
 				6112764D204EFED90031635B /* Sources */,
 				6112764E204EFED90031635B /* Frameworks */,
 				6112764F204EFED90031635B /* Resources */,
+				E8DC7CF51196FD278883520B /* [CP] Embed Pods Frameworks */,
+				92BD69B83D36A5CF7F4C3D72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,19 +272,89 @@
 			files = (
 				61127661204EFED90031635B /* LaunchScreen.storyboard in Resources */,
 				6112765E204EFED90031635B /* Assets.xcassets in Resources */,
+				61127685204F048F0031635B /* Objective-C.gitignore in Resources */,
 				6112765C204EFED90031635B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18AE6D79A6FFFF6EA4CD148B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudConnectiv-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92BD69B83D36A5CF7F4C3D72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudConnectiv-Task/Pods-CloudConnectiv-Task-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8DC7CF51196FD278883520B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudConnectiv-Task/Pods-CloudConnectiv-Task-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudConnectiv-Task/Pods-CloudConnectiv-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6112764D204EFED90031635B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61127659204EFED90031635B /* ViewController.m in Sources */,
+				61127698204F04D80031635B /* UITextField+Icons.m in Sources */,
+				6112767F204F04290031635B /* ErrorHandler.m in Sources */,
+				61127677204F03D00031635B /* BaseResponse.m in Sources */,
+				61127693204F04D80031635B /* NSObject+DataExtractor.m in Sources */,
+				61127696204F04D80031635B /* UIView+RoundedCorners.m in Sources */,
+				61127683204F04430031635B /* NetworkOperationManager.m in Sources */,
 				61127664204EFED90031635B /* main.m in Sources */,
+				61127676204F03D00031635B /* BaseObject.m in Sources */,
+				6112766E204F037C0031635B /* MainViewController.m in Sources */,
+				6112767E204F04290031635B /* Errors.m in Sources */,
+				61127697204F04D80031635B /* UIViewController+Loading.m in Sources */,
 				61127656204EFED90031635B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +487,7 @@
 		};
 		61127668204EFED90031635B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63C681D17F79EBED94C1DD1 /* Pods-CloudConnectiv-Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +502,7 @@
 		};
 		61127669204EFED90031635B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CFA5B950D3920B4AC97999 /* Pods-CloudConnectiv-Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
